@@ -1,0 +1,18 @@
+<app-header>
+  <div start-button>
+    <button mat-icon-button aria-label="back button" (click)="goBack()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+  </div>
+  <div end-button>
+    <button mat-icon-button aria-label="Save button" (click)="save()">
+      <mat-icon>save</mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Delete button" *ngIf="routeId" (click)="delete()">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </div>
+</app-header>
+<main class="content">
+  <quill-editor [(ngModel)]="content" [modules]="modules"></quill-editor>
+</main>

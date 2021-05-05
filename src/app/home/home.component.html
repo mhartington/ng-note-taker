@@ -1,0 +1,22 @@
+<app-header>
+  <a
+    end-button
+    routerLink="/edit"
+    mat-icon-button
+    class="example-icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+  >
+    <mat-icon>note_add</mat-icon>
+  </a>
+</app-header>
+
+<main class="content">
+  <mat-nav-list>
+    <a
+      mat-list-item
+      [routerLink]="['/edit', note]"
+      *ngFor="let note of notes"
+      >{{ note }}</a
+    >
+  </mat-nav-list>
+</main>

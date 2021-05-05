@@ -1,0 +1,17 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  background: #303030
+}
+.content{
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+}

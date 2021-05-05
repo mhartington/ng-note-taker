@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  background: #303030
+}
+.content{
+  height: 100%;
+  overflow: scroll;
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+}
+
+.quill-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.ql-toolbar {
+  border: none;
+}
+.ql-toolbar.ql-snow,
+quill-editor-element.ql-container.ql-snow {
+  border: none;
+}
+quill-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+quill-editor .ql-container.ql-snow{
+  flex: 1 1 auto;
+  border: none;
+  font-size: unset;
+}

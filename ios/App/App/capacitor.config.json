@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "ng-note-taker",
+	"webDir": "dist/ng-note-taker",
+	"bundledWebRuntime": false
+}

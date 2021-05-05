@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+mat-toolbar {
+  height: auto;
+  min-height: 56px;
+  padding-top: env(safe-area-inset-top);
+}
+.flex-spacer {
+  flex: 1 1 auto;
+}
